@@ -116,7 +116,7 @@ ul.nav-bar>li:last-child a {
 }
 
 .our_Story {
-  padding: 50px 250px 130px;
+  padding: 50px 220px 130px;
   position: relative;
 }
 
@@ -200,7 +200,7 @@ h2.separator_blue::after {
 }
 
 .our_Capabilities {
-  margin: 0 250px 115px;
+  margin: 0 220px 115px;
   position: relative;
 }
 
@@ -257,10 +257,14 @@ a.blocktext div {
 }
 
 .card {
-  width: 300px;
-  height: 330px;
-  padding: 38px 23px;
+  max-width: 300px;
+  padding: 35px 20px;
+  margin-right: 15px;
   border: 1px solid #E6E6E6;
+}
+
+.card:last-child {
+  margin-right: 0px;
 }
 
 .card_Title {
@@ -311,7 +315,7 @@ section#work {
 }
 
 section#contact {
-  padding: 40px 250px;
+  padding: 40px 220px;
   background-color: #141A20;
 }
 
